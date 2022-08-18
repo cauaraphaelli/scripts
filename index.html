@@ -9,12 +9,10 @@
 <body>
     
     <script>
-    let nome = prompt("Olá! Qual é seu nome?")
-    let comprimento = prompt("Qual a comprimento do terreno?");
-    let largura = prompt("Qual a largura do seu terreno?");
-    let area = largura*comprimento;
-    document.write("Entendi, " + nome + "." + " Seu terreno tem " + area +"m²")
-    
+    let nome = prompt("Olá! Qual o nome do Haras?")
+    let cavalo = prompt("Quantos cavalos tem o Haras " + nome + "?")
+    let ferradura = (cavalo*4)
+    document.write("Entendi! O Haras " + nome + " tem " + cavalo + " cavalos" + " e vai precisar de " + ferradura + " ferraduras." )
     </script>
 </body>
 </html>
